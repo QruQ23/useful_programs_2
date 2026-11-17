@@ -1,0 +1,120 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[normalem]{ulem}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue
+}
+
+\lstset{
+    language=Python,
+    basicstyle=\ttfamily\small,
+    frame=single,
+    breaklines=true,
+    showstringspaces=false
+}
+
+\setlength{\parskip}{0.6em}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+\section*{Jak dbać o zdrowy sen?}
+
+\textbf{Zatrważająca liczba ludzi została odnotowana w badaniach jako cierpiących na bezsenność. Co możemy zrobić, aby zapewnić sobie zdrowy wypoczynek i dobre przygotowanie do nadchodzącego dnia?}
+
+\subsection*{Jak poprawić jakość snu?}
+
+Niektórzy uważają, że \sout{bezsenności nie da się wyleczyć ani złagodzić jej wpływu na codzienne życie}. To nieprawda. \textbf{\textit{Zdrowa wieczorna rutyna}} może poprawić jakość snu. Oto kilka prostych sposobów:
+
+\begin{itemize}
+    \item Kładź się spać o podobnej porze każdego dnia.
+    \item Ogranicz korzystanie z ekranów przed snem.
+    \item Zadbaj o ciszę, ciemność i odpowiednią temperaturę w sypialni.
+\end{itemize}
+
+\subsection*{Jakie są skutki braku snu?}
+
+Do najczęstszych skutków braku snu należą:
+
+\begin{enumerate}
+    \item Zmęczenie i brak energii w ciągu dnia.
+    \item Problemy z koncentracją i pamięcią.
+    \item Zwiększone ryzyko chorób serca i cukrzycy.
+\end{enumerate}
+
+Jeżeli doświadczasz chronicznej bezsenności, warto skonsultować się z lekarzem lub specjalistą ds. snu, aby znaleźć odpowiednie rozwiązania i strategie poprawy jakości snu. Zwróć uwagę na:
+
+\begin{itemize}
+    \item[$\square$] Problem z zasypianiem lub utrzymaniem snu.
+    \item[$\square$] Częste budzenie się w nocy.
+\end{itemize}
+
+Warto skonsultować się z lekarzem, jeśli problemy te utrzymują się przez dłuższy czas i wpływają na codzienne funkcjonowanie. Pamiętaj, że zdrowy sen jest kluczowy dla ogólnego zdrowia i dobrego samopoczucia.
+
+\subsection*{Bezsenność w Kanadzie w latach 2018 i 2020}
+
+W badaniu kohortowym porównano objawy bezsenności przed pandemią i podczas jej pierwszej fali.
+
+\begin{center}
+\begin{tabular}{|c|r|r|}
+    \hline
+    Rok & Objawy bezsenności & Zespół bezsenności \\
+    \hline
+    2018 & 25,4\% & 16,8\% \\
+    2020 & 32,2\% & 19,0\% \\
+    \hline
+\end{tabular}
+\end{center}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{wykres.png}
+    \caption{Wykres przedstawiający wpływ snu na zdrowie}
+\end{figure}
+
+\textit{Czasami ludzie z bezsennością zgłaszają sny związane z rzutem ukośnym (diagram wyżej).}
+
+Jeżeli odczuwasz problemy ze snem, możesz podzielić się swoimi doświadczeniami i strategiami radzenia sobie z bezsennością w \href{https://colab.research.google.com/}{notebooku Google Colab}. Wspólne dzielenie się wiedzą może pomóc w znalezieniu skutecznych metod poprawy jakości snu.
+
+Z naszych doświadczeń wynika, że osoby cierpiące na bezsenność to w części matematycy specjalizujący się w kilku specyficznych wzorach, takich jak
+\(\sum_{n=1}^{\infty} \frac{1}{n^2}\),
+\(\int_0^\infty e^{-x^2}\,dx\)
+czy
+\(\lim_{x \to 0} \frac{\sin(x)}{x}\).
+Zgłaszano również przypadki pracy nad takimi wzorami:
+
+\[
+\sum_{n=31}^{\infty} \frac{3}{n^2}
+\]
+
+\[
+\int_0^\infty e^{-x^3}\,dx
+\]
+
+\[
+\int_0^\infty \frac{\sin(x)}{x}\,dx
+\]
+
+Warto zauważyć, że te wzory mogą prowadzić do stresu i trudności w zasypianiu.
+
+Zupełnie poważnie mówiąc, ten artykuł/zadanie, mimo że nosi znamiona opowiadania lub pracy absurdalnej, w dużej mierze zostało bardzo dobrze i rzetelnie uzupełnione dzięki podpowiedziom dostępnego w Visual Studio Code chata, co wywołuje u mnie niemałe przerażenie. Uważam, że zabrnąłem już w absurd za daleko, dlatego na sam koniec programuję ostatnią część tego zadania.
+
+\begin{lstlisting}
+x = int(input("Podaj liczbę: "))
+y = x**3
+print(f"Wynik potęgowania: {y}")
+print("Miłego dnia i zdrowego snu!")
+\end{lstlisting}
+
+\end{document}
